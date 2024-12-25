@@ -115,8 +115,6 @@
 
 <script>
 import {
-  CreateUser,
-  GetAllUsers,
   CreateUserDemo,
 } from "@/composables/UserService";
 import Navbar from "@/components/Navbar";

@@ -16,30 +16,32 @@
 
       <div class="dashboard-card">
         <h3>Submit a New Dissertation</h3>
-        <p>Start a new dissertation by submitting your details and research work.</p>
+        <p>
+          Start a new dissertation by submitting your details and research work.
+        </p>
       </div>
 
       <div class="dashboard-card">
         <h3>View Submitted Dissertations</h3>
         <p>Check the status of your dissertation submissions.</p>
       </div>
-      
+
       <div class="dashboard-card">
         <h3>Dissertation Result</h3>
         <p>Check the Score of your dissertation.</p>
       </div>
     </div>
-
-
   </div>
 </template>
 
 <script>
+import Navbar from "@/components/Navbar";
 export default {
+  
   name: "HomeView",
+  components: { Navbar },
   data() {
     return {
-      username: "John Doe", // Example username, replace with dynamic user data if needed
     };
   },
   methods: {

@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "major": "Computer Science",
+      "role": "student",
+      "username": "student",
+      "password": "password",
+      "teacherId": "2",
+      "createdDatetime": "2024-12-24T04:14:06.752675"
+    },
+    {
+      "id": "2",
+      "firstName": "Teacher",
+      "lastName": "Kid",
+      "major": "Business Analytic",
+      "role": "teacher",
+      "username": "teacher",
+      "password": "password",
+      "teacherId": null,
+      "createdDatetime": "2024-12-24T04:14:06.753553"
+    },
+    {
+      "id": "3",
+      "firstName": "Admin",
+      "lastName": "Super",
+      "major": "IT",
+      "role": "admin",
+      "username": "admin",
+      "password": "password",
+      "teacherId": null,
+      "createdDatetime": "2024-12-24T04:14:06.752675"
+    },
+    {
+      "id": "4",
+      "firstName": "Teacher2",
+      "lastName": "Kid",
+      "major": "Business Analytic",
+      "role": "teacher",
+      "username": "teacher2",
+      "password": "password",
+      "teacherId": null,
+      "createdDatetime": "2024-12-24T04:14:06.753553"
+    }
+  ],
+  "studentAssignments": [
+    {
+      "id": "2",
+      "userId": "1",
+      "progressReportId": null,
+      "progressReportStatus": "Not Submitted",
+      "finalReportId": null,
+      "finalReportStatus": "Not Submitted",
+      "teacherId": "2",
+      "grade": null,
+      "gradedStatus": null,
+      "createdDatetime": "2024-12-24T04:14:06.752675"
+    }
+  ],
+  "reports": [
+    {
+      "id": "1",
+      "name": "Jirakrit_Yodvanich_Progress_Report.pdf",
+      "document": "base64content",
+      "type": "progress",
+      "time_stamp": "2024-12-24T04:14:06.752675"
+    },
+    {
+      "id": "2",
+      "name": "Jirakrit_Yodvanich_Final_Report.pdf",
+      "document": "--",
+      "type": "final",
+      "time_stamp": "2024-12-24T04:14:06.752675"
+    }
+  ]
+}

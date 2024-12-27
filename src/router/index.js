@@ -7,19 +7,12 @@ import SubmitReportView from "../views/SubmitReportView";
 import StudentReportsView from "../views/StudentReportsView";
 import UnauthorizeView from "../views/UnauthorizeView";
 import NotFoundView from "../views/NotFoundView";
-import PGSA from "../views/PGSA";
-
 
 const routes = [
   {
     path: "/",
     name: "home",
     component: HomeView,
-  },
-  {
-    path: "/wx?limit=6&reused=pgsa_latest&tsv=2PACX-1vSbYtpAD_wZmkcwxwpb14CVWU-MM7mcFAw8GAegcZ6qVWXyj2LkXIvhjxgRg7i80wOFNIEOBNW4Er8r,0,R1C4",
-    name: "PGSA",
-    component: PGSA,
   },
   {
     path: "/authorized",
